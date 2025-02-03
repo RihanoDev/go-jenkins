@@ -20,7 +20,7 @@ RUN jenkins-plugin-cli --plugins "blueocean docker-workflow"
 
 WORKDIR /app
 
-COPY go.mod go.sum ./
+COPY go.mod ./
 
 RUN go mod download
 
