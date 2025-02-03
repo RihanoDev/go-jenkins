@@ -8,6 +8,6 @@ RUN go mod download
 
 COPY . .
 
-RUN go build -o happy_murdock
+RUN go build -o go-jenkins
 
-CMD ["./happy_murdock"]
+CMD ["./go-jenkins"]
