@@ -13,7 +13,7 @@ pipeline {
         stage('Test') {
             steps {
                 script {
-                    // Running test di dalam kontainer
+                    // Running test di dalam kontainer test
                     sh 'docker run go-jenkins go test -v ./...'
                 }
             }
